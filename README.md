@@ -28,14 +28,12 @@ If an error occurs during the scraping process, the error will be logged to the 
 To run this script, you need to have Node.js installed on your machine. Once you have Node.js installed, you can run the script using the following command:
 
 ```bash
-node job_scraper.js
+node index.js
 ```
 
 This will print the combined job listings from all three sources to the console.
 
 ## Future Improvements
 
-- Save the job listings to a file or a database.
 - Add more sources to scrape job listings from.
-- Improve error handling to handle specific errors more gracefully.
 - Add a scheduling mechanism to run the script at regular intervals.
